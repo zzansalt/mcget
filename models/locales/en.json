@@ -1,5 +1,6 @@
 {
   "menu.title": "Main Menu",
+  "menu.version": "mcget version %s",
   "menu.download": "Download Server",
   "menu.language": "Language",
   "menu.quit": "Quit",

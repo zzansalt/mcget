@@ -1,5 +1,6 @@
 {
   "menu.title": "메인 메뉴",
+  "menu.version": "mcget 버전: %s",
   "menu.download": "서버 다운로드",
   "menu.language": "언어",
   "menu.quit": "종료",

@@ -75,7 +75,8 @@ func (m menuModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 }
 
 func (m menuModel) View() tea.View {
-	s := tr(m.state, "menu.title") + "\n\n"
+	s := tr(m.state, "menu.title") + "\n"
+	s += fmt.Sprintf(tr(m.state, "menu.version"), AppVersion) + "\n\n"
 
 	for i, choice := range m.choices {
 
