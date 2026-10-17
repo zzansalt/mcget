@@ -1,0 +1,20 @@
+# Build outputs
+/mcget
+/mcget.exe
+/main.exe
+/dist/
+
+# Downloaded server and installer files
+*.jar
+*.exe
+*.part
+.mcget-*.part
+.mcget-installer-*/
+
+# Generated server installation files
+/libraries/
+/run.bat
+/run.sh
+/user_jvm_args.txt
+/eula.txt
+/server.properties
